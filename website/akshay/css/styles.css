@@ -11,7 +11,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-color: #242525;
+  background-color: #100028;
   /* background-image: url(../images/background.jpeg);*/
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@
 .abouthero {
   height: 380vh;
   width: 100%;
-  background-color: #242525;
+  background-color: #100028;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -30,7 +30,7 @@
 .eduhero {
   height: 246vh;
   width: 100%;
-  background-color: #242525;
+  background-color: #100028;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -39,16 +39,17 @@
 .galleryhero {
   height: 300vh;
   width: 100%;
-  background-color: #242525;
+  background-color: #100028;
   background-size: cover;
   background-position: center;
   display: inline-block;
+  background-image: url(../images/team-bg.jpg);
 }
 
 .contacthero{
   height: 200vh;
   width: 100%;
-  background-color: #242525;
+  background-color: #100028;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -57,7 +58,7 @@
 
 /* Navigation Bar */
 header {
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
   padding: 10px 0;
   width: 100%;
   position: fixed;
@@ -182,6 +183,7 @@ header.scrolled {
 .left-container {
   background-color: #242525;
   width: 70%;
+  background-image: url(../images/team-bg.jpg);
 }
 
 .right-container {
@@ -189,7 +191,7 @@ header.scrolled {
   height: 100vh;
   background: linear-gradient(-45deg, #3877ff, #262525);
   float: right;
-  /* Align it to the right */
+  background-image: url(../images/team-bg.jpg);
 }
 
 
@@ -206,6 +208,7 @@ header.scrolled {
 .circle:nth-child(1) {
   background: linear-gradient(90deg, transparent 50%, red 50%, #262525 50%);
   width: 30rem;
+  background-image: url(../images/team-bg.jpg);
 }
 
 .circle:nth-child(2) {
@@ -222,7 +225,7 @@ header.scrolled {
 /* footer */
 
 footer {
-  background-color: #333;
+  background-color: #0a0119;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -244,7 +247,6 @@ footer a {
 
 footer a:hover {
   color: #40ff53;
-  text-decoration: underline;
 }
 
 /* Social Icons */
@@ -331,6 +333,7 @@ footer .container {
   padding: 5px 0px;
   text-align: center;
   height: 45.7vh;
+  background-image: url(../images/team-bg.jpg);
 }
 
 .heading h1 {
@@ -364,7 +367,7 @@ footer .container {
   display: flex;
   justify-content: left;
   /* Aligns the logo to the left */
-  padding-left: 160px;
+  padding-left: 16px;
 }
 
 .breadcrumbs ol li {
@@ -438,7 +441,7 @@ footer .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #242525;
+  background-color: #100028;
   /* Set a background color */
   height: 800px;
 }
@@ -523,7 +526,7 @@ footer .container {
   height: 60vh;
   position: relative;
   padding: 20px;
-  background-color: #242525;
+  background-color: #100028;
 }
 
 
@@ -626,7 +629,7 @@ footer .container {
   height: 65vh;
   position: relative;
   padding: 20px;
-  background-color: #242525;
+  background-color: #100028;
 }
 
 .hobby-details h2 {
@@ -698,7 +701,7 @@ footer .container {
 .hbox1:hover,
 .hbox2:hover,
 .hbox3:hover {
-  box-shadow: 0 0 1rem rgb(3, 243, 3);
+  box-shadow: 0 0 1rem white;
 }
 
 .hbox1 {
@@ -733,7 +736,7 @@ footer .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #242525;
+  background-color: #100028;
   height: 200vh;
   margin-left: -40px;
   position: relative;
@@ -748,11 +751,12 @@ footer .container {
   width: 76%;
   /*background-color: #504c4c;
   border: 2px solid #a39f9f;*/
-  background-color: #242525;
-  border: 2px solid #242525;
+  background-color: #100028;
+  border: 2px solid #414242;
   border-radius: 8px;
   height: 50vh;
   margin-left: 30px;
+  box-shadow: 0 4px 15px white;
 }
 
 .qcol1 {
@@ -782,7 +786,7 @@ footer .container {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #242525;
+  background-color: #100028;
   border: 3px solid rgb(3, 243, 3);
 }
 
@@ -795,7 +799,7 @@ footer .container {
   width: 17px;
   height: 17px;
   border-radius: 50%;
-  background-color: #242525;
+  background-color: #100028;
   border: 3px solid rgb(3, 243, 3);
 }
 
@@ -867,7 +871,7 @@ footer .container {
 }
 
 .pictop-content{
-  background-color: #242525;
+  background-color: #100028;
   width: 60%;
   margin: 0 auto 20px auto;
   height: 80px;
@@ -880,7 +884,7 @@ footer .container {
 
 .pictop-content h3{
   height: 100%;
-  background-color: #242424;
+  background-color: #100028;
   border: 3px solid #aaa;
   line-height: 80px;
   padding: 0 50px;
@@ -980,12 +984,175 @@ input[type="radio"] {
 }
 
 
+/* contact details */
 
 
+.contact-section {
+  padding: 60px 0;
+  background-color: #100028;
+  height: 50vh;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.controw {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contcol1 {
+  flex: 1;
+  max-width: 30%;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.contact-widget {
+  background-color: #100028;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px white;
+}
+
+.widgeticon {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact-text h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-text p {
+  font-size: 16px;
+  color: #adadad;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
 
 
+/* map and message section */
+
+.contact-msg {
+  padding: 60px 0;
+  background-color: #100028;
+}
+
+.contact-msg .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.msgrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.mapcol, .msgcol {
+  flex: 1;
+  max-width: 48%;
+  padding: 15px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 35px;
+}
+
+.contact-map {
+  position: relative;
+}
+
+.map-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0); 
+}
+
+.map-link:hover {
+  cursor: pointer;
+}
 
 
+.contact-form {
+  background-color: #100028;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
+.contact-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa8a8;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  background-color: #100028;
+}
 
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.site-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  width: 460px;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Play', sans-serif;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.site-btn:hover {
+  background-color: #0056b3;
+}
