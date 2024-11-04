@@ -58,7 +58,7 @@
 
 /* Navigation Bar */
 header {
-  background-color: transparent;
+  background-color: black;
   padding: 10px 0;
   width: 100%;
   position: fixed;
@@ -225,11 +225,12 @@ header.scrolled {
 /* footer */
 
 footer {
-  background-color: #0a0119;
+  background-color: #150234;
   color: #fff;
   padding: 20px 0;
   text-align: center;
   font-family: Arial, sans-serif;
+  
 }
 
 footer p,
@@ -406,15 +407,15 @@ footer .container {
 
 .about {
   background-image: url(../images/aboutbg.jpeg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
   padding: 60px 0;
   color: #fff;
-  /* box-shadow: 0 0 8rem white ;*/
-  height: 100vh;
-  background-color: #f8f9fa;
+   box-shadow: 0 0 8rem white ;
+  height: 90vh;
+  background-color: #100028;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -523,7 +524,7 @@ footer .container {
 /* about skill details */
 
 .skills-details {
-  height: 60vh;
+  height: 65vh;
   position: relative;
   padding: 20px;
   background-color: #100028;
@@ -593,7 +594,7 @@ footer .container {
 .progress2,
 .progress3,
 .progress4 {
-  margin: 10px 0;
+  margin: 20px 0;
   width: 100%;
   /* Full width */
 }
@@ -612,7 +613,7 @@ footer .container {
 .progress-bar {
   background-color: #ddd;
   width: 90%;
-  height: 10px;
+  height: 15px;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -684,7 +685,7 @@ footer .container {
 .hbox1,
 .hbox2,
 .hbox3 {
-  background: linear-gradient(to bottom, #4a90e2, #5cb85c);
+  
   border-radius: 7px;
   padding: 15px;
   width: 100%;
@@ -695,13 +696,18 @@ footer .container {
   justify-content: center;
   align-items: center;
   text-align: center;
-  transition: box-shadow 0.2s ease;
+  border: 3px solid white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
 }
+
 
 .hbox1:hover,
 .hbox2:hover,
 .hbox3:hover {
-  box-shadow: 0 0 1rem white;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px white;
 }
 
 .hbox1 {
@@ -717,7 +723,7 @@ footer .container {
 .hbrow i {
   font-size: 20px;
   /* Adjust icon size */
-  color: black;
+  color: blak;
 }
 
 .hobby-title {
@@ -758,6 +764,8 @@ footer .container {
   margin-left: 30px;
   box-shadow: 0 4px 15px white;
 }
+
+
 
 .qcol1 {
   max-width: 50%;
